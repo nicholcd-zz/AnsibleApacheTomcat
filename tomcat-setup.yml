@@ -1,7 +1,4 @@
 - name: Tomcat deployment playbook
   hosts: tomcat
-  become: yes
-  become_method: sudo
-  remote_user: user1
   roles:
     - tomcat
